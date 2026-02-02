@@ -4,7 +4,7 @@ from preprocess import preprocess_image
 from segment import segment_characters
 from recognize import load_templates, recognize_characters
 
-image_path = "input_images/sample.png"
+image_path = "input_images/sample 2.png"
 
 binary = preprocess_image(image_path)
 chars = segment_characters(binary)
